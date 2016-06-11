@@ -1,11 +1,12 @@
-#Simple Java Web Crawler
+# Simple Java Web Crawler
 
 This is the simple JAVA libarary to crawl pages which you can embed in your existing systems
 
 
-##How to use it
+## How to use it
 
-  :::java
+```java
+      
       //Creating the settings instance
       Settings settings = new Settings();
 
