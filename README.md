@@ -5,7 +5,7 @@ This is the simple JAVA libarary to crawl pages which you can embed in your exis
 
 ## How to use it
 
-```java
+ ```java
       
       //Creating the settings instance
       Settings settings = new Settings();
@@ -32,12 +32,14 @@ This is the simple JAVA libarary to crawl pages which you can embed in your exis
 
       //get links and tree struture that has been processed
       List<Page> pages = mainCrawler.getPages();
+ ```
 
 
-###CrawlerFactory
+### CrawlerFactory
 
 This is the important class that retruns  ICrawler. You can implement your own crawler by implementing  ICrawler. I have implemented only one crawler using jsoup
 
-###Documentation
+
+### Documentation
 
 Please find the javadoc in docs folder
