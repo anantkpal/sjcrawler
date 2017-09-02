@@ -57,7 +57,7 @@ public class SJCrawlerTest{
   @Test
   public void totalLinks(){
     bootCrawler.startCrawl();
-    assertEquals(46,bootCrawler.getPages().size());
+    assertEquals(16,bootCrawler.getPages().size());
   }
 
   @Test
@@ -72,7 +72,7 @@ public class SJCrawlerTest{
     bootCrawler.startCrawl();
 
     //validating the
-    assertEquals(11,bootCrawler.getPages().size());
+    assertEquals(12,bootCrawler.getPages().size());
   }
 
   @Test

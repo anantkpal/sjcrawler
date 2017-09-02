@@ -52,7 +52,7 @@ public class JSoupCrawlerTest{
   */
   @Test
   public void validateLinks(){
-    assertEquals(19,rslt.getLinksOnPage().size());
+    assertEquals(20,rslt.getLinksOnPage().size());
   }
 
 }
