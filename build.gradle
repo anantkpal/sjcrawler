@@ -46,3 +46,9 @@ javadoc{
   destinationDir = file('docs')
   title 'Simple Java Web Crawler' + ' v' + version
 }
+
+
+task wrapper(type: Wrapper) {
+   gradleVersion = '2.9'
+   name = 'sjcrawler'
+}
